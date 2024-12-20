@@ -1,49 +1,6 @@
 const productos = [
-    {
-        nombre: "Abrigo plumifero",
-        precio: 64000,
-        imagen: ['public/Tienda_productos/Abrigo-1-modelo-1.png','public/Tienda_productos/Abrigo-1-modelo-2.png','public/Tienda_productos/Abrigo-1-modelo-3.png'],
-        descripcion: "Abrigo de nylon relleno de plumas de Hombre.",
-        etiquetas: ["RopaSuperior","Abrigo", "Hombre", "Gris", "Marron", "Negro"],
-        stock: 5,
-        colores: ['#747474', '#c57d1f','#131313']
-    },
-    {
-        nombre: "Parka acolchada",
-        precio: 96000,
-        imagen: ['public/Tienda_productos/Abrigo-2-modelo-1.png','public/Tienda_productos/Abrigo-2-modelo-2.png','public/Tienda_productos/Abrigo-2-modelo-3.png'],
-        descripcion: "Parka acolchada con tecnologia puffertech de Mujer.",
-        etiquetas: ["RopaSuperior","Abrigo", "Mujer", "Negro","Blanco","Marron"],
-        stock: 5,
-        colores: ['#131313','#ffffff','#c57d1f']
-    },
-    {
-        nombre: "Chaleco a cuadros",
-        precio: 39000,
-        imagen: ['public/Tienda_productos/Abrigo-3-modelo-3.png','public/Tienda_productos/Abrigo-3-modelo-1.png','public/Tienda_productos/Abrigo-3-modelo-2.png'],
-        descripcion: "Chaleco a cuadros para Niños ultraligero.",
-        etiquetas: ["RopaSuperior","Abrigo", "Niños", "Rojo","Beige","Azul"],
-        stock: 5,
-        colores: ['#00568f','#c20d00','#ffdfc5']
-    },
-    {
-        nombre: "Parca sin costuras",
-        precio: 72000,
-        imagen: ['public/Tienda_productos/Abrigo-4.png'],
-        descripcion: "Parca negra con capucha de poliester para Hombres.",
-        etiquetas: ["RopaSuperior","Abrigo", "Hombre", "Negro"],
-        stock: 5,
-        colores: ['#131313']
-    },
-    {
-        nombre: "Parca larga",
-        precio: 69000,
-        imagen: ['public/Tienda_productos/Abrigo-5.png'],
-        descripcion: "Parca larga con cierre ultraliviana para Mujeres.",
-        etiquetas: ["RopaSuperior","Abrigo", "Mujer", "Negro"],
-        stock: 5,
-        colores: ['#131313']
-    },
+   
+    
     {
         nombre: "Camiseta tipo tortuga",
         precio: 43000,
@@ -223,34 +180,7 @@ const productos = [
         etiquetas: ["Camping","Equipo","Bolsa de dormir","Rojo"],
         stock: 5,
         colores: ['#c20d00']
-    },
-    {
-        nombre: "Carpa basica",
-        precio: 90000,
-        imagen: ['public/Tienda_productos/Carpa-1.png'],
-        descripcion: "Carpa basica para expediciones basicas.",
-        etiquetas: ["Camping","Equipo","Carpa","Rojo"],
-        stock: 5,
-        colores: ['#c20d00']
-    },
-    {
-        nombre: "Carpa moderada",
-        precio: 150000,
-        imagen: ['public/Tienda_productos/Carpa-2.png'],
-        descripcion: "Carpa moderada resistente al agua para expediciones medianas.",
-        etiquetas: ["Camping","Equipo","Carpa","Azul"],
-        stock: 5,
-        colores: ['#00568f']
-    },
-    {
-        nombre: "Carpa profesional",
-        precio: 200000,
-        imagen: ['public/Tienda_productos/Carpa-3.png'],
-        descripcion: "Carpa profesional aprueba de todo para expediciones largas.",
-        etiquetas: ["Camping","Equipo","Carpa","Verde"],
-        stock: 5,
-        colores: ['#b6ebdd']
-    },
+    }
 ];
 
 const params = new URLSearchParams(window.location.search);
